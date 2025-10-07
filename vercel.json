@@ -8,5 +8,5 @@
   "env": {
     "NPM_CONFIG_REGISTRY": "https://registry.npmjs.org/"
   },
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+  "rewrites": [{ "source": "/(.*)", "destination": "./index.html" }]
 }
