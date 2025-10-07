@@ -8,9 +8,6 @@ importers:
 
   .:
     dependencies:
-      '@pdftron/webviewer':
-        specifier: ^11.7.1
-        version: 11.7.1
       '@types/lru-cache':
         specifier: ^7.10.9
         version: 7.10.10
@@ -538,9 +535,6 @@ packages:
   '@nodelib/fs.walk@1.2.8':
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==}
     engines: {node: '>= 8'}
-
-  '@pdftron/webviewer@11.7.1':
-    resolution: {integrity: sha512-CgX2XdraSz9jIX3I+sHkU3Dq4tvIr+ZHBJjujiipGdGTprgeA5ym03YwNlMVLq1q+kK2jVtG2ri9drN71q6hvQ==, tarball: https://artifactory.dunnhumby.com/artifactory/api/npm/NPM/@pdftron/webviewer/-/webviewer-11.7.1.tgz}
 
   '@pkgjs/parseargs@0.11.0':
     resolution: {integrity: sha512-+1VkjdD0QBLPodGrJUeqarH8VAIvQODIbwh9XpP5Syisf7YoQgsJKPNFoqqLQlu+VQ/tVSshMR6loPMn8U+dPg==}
@@ -3702,8 +3696,6 @@ snapshots:
     dependencies:
       '@nodelib/fs.scandir': 2.1.5
       fastq: 1.19.1
-
-  '@pdftron/webviewer@11.7.1': {}
 
   '@pkgjs/parseargs@0.11.0':
     optional: true
