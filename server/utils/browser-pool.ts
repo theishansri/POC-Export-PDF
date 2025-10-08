@@ -115,16 +115,3 @@ class BrowserPool {
 }
 
 export const browserPool = BrowserPool.getInstance();
-
-// Graceful shutdown
-process.on("SIGINT", async () => {
-  console.log("Shutting down browser pool...");
-  await browserPool.shutdown();
-  process.exit(0);
-});
-
-process.on("SIGTERM", async () => {
-  console.log("Shutting down browser pool...");
-  await browserPool.shutdown();
-  process.exit(0);
-});
